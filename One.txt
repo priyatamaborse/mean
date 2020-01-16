@@ -1,0 +1,2 @@
+One
+Go to the JS file where the array is and export it. var globalArray; export{globalArray, otherFunctionsYouExport}; Now go to the JS file you want the access to the array and import the global array. If you have multiple functions to import, use * and it will export everything between the brackets above
